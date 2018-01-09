@@ -1,10 +1,10 @@
 # InStereo Quurterly Accounting CLI
 
-## Node CLI that lets the user search through a SQL database of quarterly sales reports from Beatport and Traxsource and display total sales for particular artists.
+Node CLI that lets the user search through a SQL database of quarterly sales reports from Beatport and Traxsource and display total sales for particular artists.
 
 #### Search and displays specs for each CSV file
 
-#####TRAXSOURCE CSV<br>
+## TRAXSOURCE CSV<br>
 Search:<br>
 "Track Artist"<br>
 -OR-<br>
@@ -20,7 +20,7 @@ Display:<br>
 `+` "Qty" (Sum for each specific track)<br>
 `+` "Amount Due" (Sum for each track, decimal - toFixed(2))
 
-#####BEATPORT CSV<br>
+## BEATPORT CSV<br>
 Search:<br>
 "TRACK_ARTIST"<br>
 -OR-<br>
