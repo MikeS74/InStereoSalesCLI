@@ -2,8 +2,7 @@
 
 Node CLI that lets the user search through a SQL database of quarterly sales reports from Beatport and Traxsource and display total sales for particular artists.
 
-#### Search and displays specs for each CSV file
-
+#### Search and displays specs for each CSV file:
 ### TRAXSOURCE CSV<br>
 Search:<br>
 "Track Artist"<br>
@@ -16,7 +15,9 @@ Display:<br>
 -OR-<br>
 "Track Title" (Exclude repeats)<br>
 `+` "Track Version" (Exclude: "Original", "Mix", "Remix", "Club" "Edit")<br>
--COMBINED WITH-<br>
+
+-BOTH COMBINED WITH-<br>
+
 `+` "Qty" (Sum for each specific track)<br>
 `+` "Amount Due" (Sum for each track, decimal - toFixed(2))
 
@@ -32,6 +33,8 @@ Display:<br>
 -OR-<br>
 "TRACK_TITLE" (Exclude repeats)<br>
 `+` "REMIXER_NAME" (Multiple Artist names are ok)<br>
--COMBINED WITH-<br>
+
+-BOTH COMBINED WITH-<br>
+
 `+` "TRACK_COUNT" (Sum for each specific track)<br>
 `+` "NET_CONTENT_REVENUE" (Sum for each track, decimal - toFixed(2))<br>
