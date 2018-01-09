@@ -1,4 +1,4 @@
-# InStereo Quurterly Accounting CLI
+# InStereo Quarterly Accounting CLI
 
 Node CLI that lets the user search through a SQL database of quarterly sales reports from Beatport and Traxsource and display total sales for particular artists.
 
