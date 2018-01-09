@@ -14,7 +14,7 @@ Display:<br>
 `+` "Track Title" (Exclude repeats)<br>
 -OR-<br>
 "Track Title" (Exclude repeats)<br>
-`+` "Track Version" (Exclude: "Original", "Mix", "Remix", "Club" "Edit")<br>
+`+` "Track Version"<br>
 
 -BOTH COMBINED WITH-<br>
 
