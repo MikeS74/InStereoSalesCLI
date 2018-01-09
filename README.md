@@ -18,7 +18,7 @@ Display:<br>
 
 -BOTH COMBINED WITH-<br>
 
-`+` "Qty" (Sum for each specific track)<br>
+"Qty" (Sum for each specific track)<br>
 `+` "Amount Due" (Sum for each track, decimal - toFixed(2))
 
 ### BEATPORT CSV<br>
@@ -36,5 +36,5 @@ Display:<br>
 
 -BOTH COMBINED WITH-<br>
 
-`+` "TRACK_COUNT" (Sum for each specific track)<br>
+"TRACK_COUNT" (Sum for each specific track)<br>
 `+` "NET_CONTENT_REVENUE" (Sum for each track, decimal - toFixed(2))<br>
