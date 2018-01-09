@@ -4,34 +4,34 @@
 
 #### Search and displays specs for each CSV file
 
-TRAXSOURCE CSV
-*Search:
-"Track Artist"
--OR-
+#####TRAXSOURCE CSV<br>
+Search:<br>
+"Track Artist"<br>
+-OR-<br>
 "Track Version" (a.k.a. Remixer Name) (Exclude: "Original", "Mix", "Remix", "Club" "Edit")
 
-*Display:
-"Track Artist" (Multiple Artist names are ok) 
-+ "Track Title" (Exclude repeats)
--OR-
-"Track Title" (Exclude repeats)
-+ "Track Version" (Exclude: "Original", "Mix", "Remix", "Club" "Edit")
--COMBINED WITH-
-+ "Qty" (Sum for each specific track)
-+ "Amount Due" (Sum for each track, decimal - toFixed(2))
+Display:<br>
+"Track Artist" (Multiple Artist names are ok)<br> 
+`+` "Track Title" (Exclude repeats)<br>
+-OR-<br>
+"Track Title" (Exclude repeats)<br>
+`+` "Track Version" (Exclude: "Original", "Mix", "Remix", "Club" "Edit")<br>
+-COMBINED WITH-<br>
+`+` "Qty" (Sum for each specific track)<br>
+`+` "Amount Due" (Sum for each track, decimal - toFixed(2))
 
-BEATPORT CSV
-*Search:
-"TRACK_ARTIST"
--OR-
+#####BEATPORT CSV<br>
+Search:<br>
+"TRACK_ARTIST"<br>
+-OR-<br>
 "REMIXER_NAME"
 
-*Display:
-"TRACK_ARTIST" (Multiple Artist names are ok)
-+ "TRACK_TITLE" (Exclude repeats)
--OR-
-"TRACK_TITLE" (Exclude repeats)
-+ "REMIXER_NAME" (Multiple Artist names are ok)
--COMBINED WITH-
-+ "TRACK_COUNT" (Sum for each specific track)
-+ "NET_CONTENT_REVENUE" (Sum for each track, decimal - toFixed(2))
+Display:<br>
+"TRACK_ARTIST" (Multiple Artist names are ok)<br>
+`+` "TRACK_TITLE" (Exclude repeats)<br>
+-OR-<br>
+"TRACK_TITLE" (Exclude repeats)<br>
+`+` "REMIXER_NAME" (Multiple Artist names are ok)<br>
+-COMBINED WITH-<br>
+`+` "TRACK_COUNT" (Sum for each specific track)<br>
+`+` "NET_CONTENT_REVENUE" (Sum for each track, decimal - toFixed(2))<br>
