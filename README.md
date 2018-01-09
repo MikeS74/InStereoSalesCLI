@@ -6,7 +6,7 @@ Node CLI that lets the user search through a SQL database of quarterly sales rep
 ### TRAXSOURCE CSV
 Search:<br>
 Option 1: "Track Artist"<br>
-Option 2: "Track Version" (a.k.a. Remixer Name) (Exclude: "Original", "Mix", "Remix", "Club" "Edit")
+Option 2: "Track Version" (a.k.a. Remixer Name) (Exclude: "Original", "Mix", "Remix", "Club", "Edit")
 
 Display:<br>
 Option 1: "Track Artist" (Multiple Artist names are ok)<br> 
