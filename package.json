@@ -1,0 +1,23 @@
+{
+  "name": "instereosalescli",
+  "version": "1.0.0",
+  "description": "Node CLI that lets the user search through a SQL database of quarterly sales reports from Beatport and Traxsource and display total sales for particular artists.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeS74/InStereoSalesCLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeS74/InStereoSalesCLI/issues"
+  },
+  "homepage": "https://github.com/MikeS74/InStereoSalesCLI#readme",
+  "dependencies": {
+    "inquirer": "^5.0.0",
+    "mysql": "^2.15.0"
+  }
+}
